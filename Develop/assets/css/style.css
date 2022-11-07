@@ -90,14 +90,14 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* These two float classes are used to place the images in the articles*/
+/* These two float classes are used to place the images in the articles  I tried to set these to inline-start and inline-end but that did not work on the live server.   Changing back to left and right.*/
 .float-left {
-    float: inline-start;
+    float: left;
     margin-right: 25px;
 }
 
 .float-right {
-    float: inline-end;
+    float: right;
     margin-left: 25px;
 }
 
